@@ -25,5 +25,11 @@ deployment:
              IFS=', ' read -r -a array <<< "$line"
              docker pull ${array[0]}
              docker tag ${array[0]} ${DEST_REPO}/${array[1]}
+             docker push ${DEST_REPO}/${array[1]}
         done < images.list
         )
+
+test:
+  override:
+    - echo SUCCESS:
+        parallel: true
