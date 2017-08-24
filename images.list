@@ -1,1 +1,2 @@
 prom/prometheus:v1.7.1, prometheus:v1.7.1
+prom/node-exporter:v0.14.0, node-exporter:v0.14.0
