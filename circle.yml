@@ -1,0 +1,29 @@
+machine:
+  pre:
+    - curl -sSL https://s3.amazonaws.com/circle-downloads/install-circleci-docker.sh | bash -s -- 1.10.0
+  services:
+    - docker
+  environment:
+    GOPATH: /home/ubuntu
+    SRCDIR: /home/ubuntu/src/github.com/VinkDong/docker-pull
+    PATH: $PATH:$HOME/.local/bin
+
+dependencies:
+  pre:
+      - pip install --upgrade requests
+  cache_directories:
+    - "~/docker"
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker login -e $REPO_EMAIL -u $REPO_USER -p $REPO_PASS $PRIVATE_REPO 
+      - |
+        (
+        while IFS='' read -r line || [[ -n "$line" ]]; do
+             IFS=', ' read -r -a array <<< "$line"
+             docker pull ${array[0]}
+             docker tag ${array[0]} ${DEST_REPO}/${array[1]}
+        done < images.list
+        )
