@@ -1,6 +1,2 @@
-prom/prometheus:v1.7.1, prometheus:v1.7.1
-prom/node-exporter:v0.14.0, node-exporter:v0.14.0
-quay.io/coreos/prometheus:0.19.2, prometheus-coreos:0.19.2
-gcr.io/google_containers/kubernetes-dashboard-amd64:v1.5.1, kubernetes-dashboard-amd64:v1.5.1
 quay.io/prometheus/alertmanager:v0.7.1, alertmanager:v0.7.1
 gcr.io/google_containers/kube-state-metrics:v0.5.0, kube-state-metrics:v0.5.0
