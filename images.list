@@ -1,2 +1,1 @@
-oliver006/redis_exporter, redis_exporter:v0.1
-prom/mysqld-exporter:v0.10.0, mysqld-exporter:v0.10.0
+ivankrizsan/elastalert:0.1.18, elastalert:0.1.18
