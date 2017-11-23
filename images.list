@@ -1,1 +1,1 @@
-prom/prometheus:v2.0.0, prometheus:v2.0.0
+gcr.io/google_containers/kubernetes-dashboard-amd64:v1.7.1, kubernetes-dashboard-amd64:v1.7.1
