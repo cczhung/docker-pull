@@ -1,2 +1,1 @@
-docker.elastic.co/kibana/kibana:6.0.0, kibana:6.0.0
-wurstmeister/kafka:1.0.0, kafka:1.0.0
+hand/builder:go,builder:go
