@@ -1,1 +1,2 @@
-jaegertracing/all-in-one:latest, jaegertracing:latest
+jaegertracing/jaeger-agent, jaeger-agent:1.1.0
+jaegertracing/jaeger-collector, jaeger-collector:1.1.0
