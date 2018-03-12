@@ -1,3 +1,1 @@
-jaegertracing/jaeger-agent, jaeger-agent:1.1.0
-jaegertracing/jaeger-collector, jaeger-collector:1.1.0
-jaegertracing/jaeger-query, jaegertracing/jaeger-query:1.1.0
+iamseth/oracledb_exporter:0.0.6, oracledb_exporter:0.0.6
