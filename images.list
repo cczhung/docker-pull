@@ -1,1 +1,2 @@
-gcr.io/kubernetes-helm/tiller:v2.9.1, tiller:v2.9.1
+docker.elastic.co/elasticsearch/elasticsearch-oss:6.3.0, elasticsearch-oss:6.3.0
+docker.elastic.co/kibana/kibana-oss:6.3.0, kibana-oss:6.3.0
