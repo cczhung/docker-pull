@@ -1,2 +1,1 @@
-docker.elastic.co/elasticsearch/elasticsearch-oss:6.3.0, elasticsearch-oss:6.3.0
-docker.elastic.co/kibana/kibana-oss:6.3.0, kibana-oss:6.3.0
+index.tenxcloud.com/jimmy/filebeat:5.4.0, filebeat:5.4.0
