@@ -1,1 +1,2 @@
-index.tenxcloud.com/jimmy/filebeat:5.4.0, filebeat:5.4.0
+gcr.io/istio-release/mixer:1.0.2, mixer:1.0.2
+
