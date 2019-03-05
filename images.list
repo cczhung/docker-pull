@@ -1,2 +1,1 @@
-us.gcr.io/skywalking-live-demo/skywalking/ui:latest, skywalking-ui:latest
-us.gcr.io/skywalking-live-demo/skywalking/oap:latest, skywalking-oap:latest
+jenkins/jenkins:lts, jenkins/jenkins:lts
