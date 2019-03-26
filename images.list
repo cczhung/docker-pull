@@ -1,1 +1,3 @@
 jenkins/jenkins:lts, registry.saas.hand-china.com/tools/jenkins:lts
+gcr.io/knative-releases/github.com/knative/build-pipeline/cmd/webhook@sha256:cca7069a11aaf0d9d214306d456bc40b2e33e5839429bf07c123ad964d495d8a，registry.saas.hand-china.com/tools/webhook:3-26
+gcr.io/knative-releases/github.com/knative/build-pipeline/cmd/controller@sha256:bdc6f22a44944c829983c30213091b60f490b41f89577e8492f6a2936be0df41，registry.saas.hand-china.com/tools/controller:3-26
